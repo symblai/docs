@@ -236,6 +236,15 @@ If successful you should receive a response in the console.
 
 <a name="ontopicresponse"></a>
 
+### Query Params
+
+Following are the optional query parameters that you can pass in this API:
+
+Parameter | Required | Value |Description |
+--------- | --------- | ------- | -------
+```verbose``` | Optional | true | Gives you word level timestamps and score of each sentence.
+```sentiment```| Optional | true | Give you [Sentiment Analysis](/docs/concepts/sentiment-analysis) on each message.
+
 ### Handlers Reference
 
 * `handlers`: This object has the callback functions for different events

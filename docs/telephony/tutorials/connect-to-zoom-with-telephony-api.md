@@ -30,6 +30,7 @@ You must make sure your Zoom call allows phone dial-in for this example to work 
 * [Grabbing the Conversation ID](#grabbing-the-conversation-id)
 * [Full Code Sample](#full-code-sample)
   * [Test](#test)
+* [Query Params](#query-params)
 * [Conclusion](#conclusion)
 
 
@@ -275,6 +276,14 @@ Run your code:
 ```bash
 $ node index.js
 ```
+### Query Params
+
+Following are the optional query parameters that you can pass in this API:
+
+Parameter | Required | Value |Description |
+--------- | --------- | ------- | -------
+```verbose``` | Optional | true | Gives you word level timestamps and score of each sentence.
+```sentiment```| Optional | true | Give you [Sentiment Analysis](/docs/concepts/sentiment-analysis) on each message.
 
 ## Conclusion
 

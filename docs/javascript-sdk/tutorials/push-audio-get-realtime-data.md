@@ -40,6 +40,7 @@ In this guide you will learn the following:
 * [Test](#test)
 * [Grabbing the Conversation ID](#grabbing-the-conversation-id)
 * [Full Code Sample](#full-code-sample)
+* [Query Params](#query-params)
 
 ## Getting started
 
@@ -69,7 +70,6 @@ const micInstance = mic({
 ```
 
 ## Initialize SDK
-
 
 You can get the `appId` and `appSecret` values from the [Symbl Platform](https://platform.symbl.ai).
 
@@ -707,3 +707,11 @@ const micInstance = mic({
   }
 })();
 ```
+### Query Params
+
+Following are the optional query parameters that you can pass in this API:
+
+Parameter | Required | Value |Description |
+--------- | --------- | ------- | -------
+```verbose``` | Optional | true | Gives you word level timestamps and score of each sentence.
+```sentiment```| Optional | true | Give you [Sentiment Analysis](/docs/concepts/sentiment-analysis) on each message.
