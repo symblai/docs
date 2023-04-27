@@ -786,7 +786,7 @@ public class MainActivity extends AppCompatActivity implements io.agora.rtc2.IMe
 ## Sample Project
 ---
 The following sample project provides you an Android mobile app using the Agora Video SDK and the Symbl.ai Extension and it can be used as a reference. Follow the instructions in the README file for setting up, configuring and running the sample mobile app in your own device.
-[Sample Android App Project](https://github.com/symblai/symbl-agora-Android-app).
+[Sample Android App Project](https://github.com/SymblDev/symbl-agora-android-app).
 
 ## API Reference
 ---
