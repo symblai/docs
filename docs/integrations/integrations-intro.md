@@ -19,7 +19,7 @@ Symbl provides integrations with native applications and SDKs and supports Conve
  
 <button class="button button2"><a href="https://github.com/symblai/symbl-twilio-video-react">Twilio Video React App</a></button> 
 <br/>
-<button class="button button3"><a href="https://github.com/symblai/symbl-for-zoom">Zoom Meeting App</a></button>
+<button class="button button3"><a href="https://github.com/SymblDev/symbl-zoom-pstn-app">Zoom Meeting App</a></button>
 
 <button class="button button4"><a href="https://github.com/symblai/symbl-chime-adapter">Amazon Chime App</a></button> 
 &nbsp; 
