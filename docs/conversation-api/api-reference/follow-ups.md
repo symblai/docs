@@ -144,8 +144,17 @@ exit()
                     }
                 }
             ],
-            "from": {},
-            "assignee": {},
+            "definitive": true,
+            "from": {
+                "id": "e2219a6c-ec5e-4412-94d7-46f565ba5eb7",
+                "name": "John",
+                "userId": "John@example.com"
+            },
+            "assignee": {
+                "id": "e2219a6c-ec5e-4412-94d7-46f565ba5eb7",
+                "name": "Jane",
+                "email": "Jane@example.com"
+            },
             "dueBy": "2020-06-22T07:00:00.000Z"
         }
     ]
@@ -163,6 +172,7 @@ Field  | Description
 ```score``` | Confidence score of the generated topic. Value from 0 - 1.
 ```messageIds``` | Unique message identifiers of the corresponding messages.
 ```entities``` | List of detected entity objects in the insight with `type` - entity type and `text` - corresponding text.
+```definitive``` | Boolean indicating if the follow-up is definitive or not.
 ```from``` | User object with proprities `name` and `email`.
 ```assignee``` | This field contains the name and email of the person assigned to the follow-up.
 ```phrases``` | List of detected phrases with `type` - phrase type and `text` - corresponding text. The `action_phrase` type represents the actionable part of an insight.
