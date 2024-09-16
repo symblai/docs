@@ -48,7 +48,8 @@ To get this example running, you need to install the node packages `@symblai/sym
 `mic` also requires you to install `sox`. To install `sox` choose the option which fits your operating system:
 
 **Mac**: `brew install sox` <br />
-**Windows and Linux**: [Installation of SoX on different Platforms](https://at.projects.genivi.org/wiki/display/PROJ/Installation+of+SoX+on+different+Platforms)
+**Linux**: Available in your distro's package manager (e.g., `apt install sox`) <br />
+**Windows**: [Installation of SoX, and PATH updates](https://github.com/JoFrhwld/FAVE/wiki/Sox-on-Windows)
 
 ```javascript
 const {sdk} = require('@symblai/symbl-js');
