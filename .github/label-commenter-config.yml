@@ -1,0 +1,53 @@
+comment:
+  # header: "Please note the following requirement:"
+  footer: "\
+    ---\n\n
+    > &nbsp; &#9; &nbsp; &#9;  &nbsp; &#9;  &nbsp; &#9; Be sure to [join the community](https://symbldotai.slack.com/), if you haven't yet and please leave a :star: [star on the project](../stargazers) :smile:
+    "
+labels:
+  - name: bug
+    labeled:
+      issue:
+        body: Something isn't working
+        action: open
+  - name: docathon
+    labeled:
+      issue:
+        body: docs hackathon
+        action: open
+  - name: documentation
+    labeled:
+      issue:
+        body: Improvements or addition to documentation
+        action: open
+  - name: duplicate
+    labeled:
+      issue:
+        body: This issue already exist
+        action: open
+  - name: enhancement
+    labeled:
+      issue:
+        body: New feature request
+        action: open
+  - name: good first issue
+    labeled:
+      issue:
+        body: Good for newcomers
+        action: open
+  - name: invalid
+    labeled:
+      issue:
+        body: This doesn't seems right
+        action: open
+  - name: question
+    labeled:
+      issue:
+        body: Further information requested
+        action: open
+
+  - name: wontfix
+    labeled:
+      issue:
+        body: This will not be worked on
+        action: open

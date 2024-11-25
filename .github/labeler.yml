@@ -1,0 +1,4 @@
+all:
+- /*
+pre-built-ui:
+- '.github/**/*'      
